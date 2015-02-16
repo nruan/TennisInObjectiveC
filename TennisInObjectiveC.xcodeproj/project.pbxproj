@@ -21,6 +21,18 @@
 		3E9337C31890C2F000A0AFC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9337A51890C2F000A0AFC0 /* UIKit.framework */; };
 		3E9337CB1890C2F000A0AFC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E9337C91890C2F000A0AFC0 /* InfoPlist.strings */; };
 		3E9337CD1890C2F000A0AFC0 /* TennisInObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9337CC1890C2F000A0AFC0 /* TennisInObjectiveCTests.m */; };
+		3E9337D81890C31200A0AFC0 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9337D71890C31200A0AFC0 /* Player.m */; };
+		3E9337DC1890CDAD00A0AFC0 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9337DB1890CDAD00A0AFC0 /* Score.m */; };
+		3E9337DF1890D69200A0AFC0 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9337DE1890D69200A0AFC0 /* Game.m */; };
+		3E9337E21890D73600A0AFC0 /* GameScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9337E11890D73600A0AFC0 /* GameScore.m */; };
+		3E9337E51890D9D100A0AFC0 /* Competition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9337E41890D9D100A0AFC0 /* Competition.m */; };
+		3E9337E81890DBD800A0AFC0 /* PointScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9337E71890DBD800A0AFC0 /* PointScore.m */; };
+		3F3249801A82D59E006782A2 /* Set.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F32497F1A82D59E006782A2 /* Set.m */; };
+		3F3249841A82D5BD006782A2 /* SetScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3249831A82D5BD006782A2 /* SetScore.m */; };
+		3F3249861A82DA7C006782A2 /* TieBreaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3249851A82DA7C006782A2 /* TieBreaker.m */; };
+		3F3249891A82DA94006782A2 /* TieBreakerScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3249881A82DA94006782A2 /* TieBreakerScore.m */; };
+		3F32498D1A82E252006782A2 /* Match.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F32498C1A82E252006782A2 /* Match.m */; };
+		3F32498F1A82E263006782A2 /* MatchScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F32498E1A82E263006782A2 /* MatchScore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +65,30 @@
 		3E9337C81890C2F000A0AFC0 /* TennisInObjectiveCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TennisInObjectiveCTests-Info.plist"; sourceTree = "<group>"; };
 		3E9337CA1890C2F000A0AFC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3E9337CC1890C2F000A0AFC0 /* TennisInObjectiveCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TennisInObjectiveCTests.m; sourceTree = "<group>"; };
+		3E9337D61890C31200A0AFC0 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		3E9337D71890C31200A0AFC0 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		3E9337DA1890CDAD00A0AFC0 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		3E9337DB1890CDAD00A0AFC0 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
+		3E9337DD1890D69200A0AFC0 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		3E9337DE1890D69200A0AFC0 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		3E9337E01890D73600A0AFC0 /* GameScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScore.h; sourceTree = "<group>"; };
+		3E9337E11890D73600A0AFC0 /* GameScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScore.m; sourceTree = "<group>"; };
+		3E9337E31890D9D100A0AFC0 /* Competition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Competition.h; sourceTree = "<group>"; };
+		3E9337E41890D9D100A0AFC0 /* Competition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Competition.m; sourceTree = "<group>"; };
+		3E9337E61890DBD800A0AFC0 /* PointScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointScore.h; sourceTree = "<group>"; };
+		3E9337E71890DBD800A0AFC0 /* PointScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointScore.m; sourceTree = "<group>"; };
+		3F32497F1A82D59E006782A2 /* Set.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Set.m; sourceTree = "<group>"; };
+		3F3249811A82D5A8006782A2 /* Set.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Set.h; sourceTree = "<group>"; };
+		3F3249821A82D5B2006782A2 /* SetScore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetScore.h; sourceTree = "<group>"; };
+		3F3249831A82D5BD006782A2 /* SetScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetScore.m; sourceTree = "<group>"; };
+		3F3249851A82DA7C006782A2 /* TieBreaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TieBreaker.m; sourceTree = "<group>"; };
+		3F3249871A82DA87006782A2 /* TieBreaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TieBreaker.h; sourceTree = "<group>"; };
+		3F3249881A82DA94006782A2 /* TieBreakerScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TieBreakerScore.m; sourceTree = "<group>"; };
+		3F32498A1A82DAA0006782A2 /* TieBreakerScore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TieBreakerScore.h; sourceTree = "<group>"; };
+		3F32498B1A82E249006782A2 /* Match.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Match.h; sourceTree = "<group>"; };
+		3F32498C1A82E252006782A2 /* Match.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Match.m; sourceTree = "<group>"; };
+		3F32498E1A82E263006782A2 /* MatchScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchScore.m; sourceTree = "<group>"; };
+		3F3249901A82E272006782A2 /* MatchScore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatchScore.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +148,7 @@
 		3E9337A71890C2F000A0AFC0 /* TennisInObjectiveC */ = {
 			isa = PBXGroup;
 			children = (
+				3E9337D91890C33A00A0AFC0 /* Tennis Files */,
 				3E9337B01890C2F000A0AFC0 /* AppDelegate.h */,
 				3E9337B11890C2F000A0AFC0 /* AppDelegate.m */,
 				3E9337B31890C2F000A0AFC0 /* Main.storyboard */,
@@ -150,6 +187,37 @@
 				3E9337C91890C2F000A0AFC0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E9337D91890C33A00A0AFC0 /* Tennis Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E9337D61890C31200A0AFC0 /* Player.h */,
+				3E9337D71890C31200A0AFC0 /* Player.m */,
+				3E9337DA1890CDAD00A0AFC0 /* Score.h */,
+				3E9337DB1890CDAD00A0AFC0 /* Score.m */,
+				3F3249811A82D5A8006782A2 /* Set.h */,
+				3F32497F1A82D59E006782A2 /* Set.m */,
+				3F3249821A82D5B2006782A2 /* SetScore.h */,
+				3F3249831A82D5BD006782A2 /* SetScore.m */,
+				3F32498B1A82E249006782A2 /* Match.h */,
+				3F32498C1A82E252006782A2 /* Match.m */,
+				3F3249901A82E272006782A2 /* MatchScore.h */,
+				3F32498E1A82E263006782A2 /* MatchScore.m */,
+				3F3249871A82DA87006782A2 /* TieBreaker.h */,
+				3F3249851A82DA7C006782A2 /* TieBreaker.m */,
+				3F32498A1A82DAA0006782A2 /* TieBreakerScore.h */,
+				3F3249881A82DA94006782A2 /* TieBreakerScore.m */,
+				3E9337DD1890D69200A0AFC0 /* Game.h */,
+				3E9337DE1890D69200A0AFC0 /* Game.m */,
+				3E9337E01890D73600A0AFC0 /* GameScore.h */,
+				3E9337E11890D73600A0AFC0 /* GameScore.m */,
+				3E9337E31890D9D100A0AFC0 /* Competition.h */,
+				3E9337E41890D9D100A0AFC0 /* Competition.m */,
+				3E9337E61890DBD800A0AFC0 /* PointScore.h */,
+				3E9337E71890DBD800A0AFC0 /* PointScore.m */,
+			);
+			name = "Tennis Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +317,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3249841A82D5BD006782A2 /* SetScore.m in Sources */,
+				3F3249861A82DA7C006782A2 /* TieBreaker.m in Sources */,
+				3E9337D81890C31200A0AFC0 /* Player.m in Sources */,
 				3E9337B81890C2F000A0AFC0 /* ViewController.m in Sources */,
+				3E9337E81890DBD800A0AFC0 /* PointScore.m in Sources */,
+				3E9337DC1890CDAD00A0AFC0 /* Score.m in Sources */,
+				3E9337E51890D9D100A0AFC0 /* Competition.m in Sources */,
+				3F32498F1A82E263006782A2 /* MatchScore.m in Sources */,
+				3E9337DF1890D69200A0AFC0 /* Game.m in Sources */,
+				3F3249891A82DA94006782A2 /* TieBreakerScore.m in Sources */,
+				3F32498D1A82E252006782A2 /* Match.m in Sources */,
 				3E9337B21890C2F000A0AFC0 /* AppDelegate.m in Sources */,
 				3E9337AE1890C2F000A0AFC0 /* main.m in Sources */,
+				3F3249801A82D59E006782A2 /* Set.m in Sources */,
+				3E9337E21890D73600A0AFC0 /* GameScore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TennisInObjectiveC/TennisInObjectiveC-Prefix.pch";
 				INFOPLIST_FILE = "TennisInObjectiveC/TennisInObjectiveC-Info.plist";
@@ -391,6 +472,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TennisInObjectiveC/TennisInObjectiveC-Prefix.pch";
 				INFOPLIST_FILE = "TennisInObjectiveC/TennisInObjectiveC-Info.plist";
@@ -460,6 +542,7 @@
 				3E9337D21890C2F000A0AFC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E9337D31890C2F000A0AFC0 /* Build configuration list for PBXNativeTarget "TennisInObjectiveCTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +551,7 @@
 				3E9337D51890C2F000A0AFC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
